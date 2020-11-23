@@ -1,5 +1,5 @@
 import React from "react";
-import {init, hooks} from "mobro";
+import {hooks} from "mobro";
 
 // ----------------------------------------------------
 // component hook
@@ -36,5 +36,3 @@ import {init, hooks} from "mobro";
 //     hardware: event.state.theme.hardware.hardware,
 //     data: event.state.theme.data.data
 // }));
-
-init();
