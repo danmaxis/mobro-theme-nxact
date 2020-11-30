@@ -1,6 +1,8 @@
 import React from "react";
 import {hooks} from "mobro";
 
+mobro.hooks.addComponentRoot("absolute");
+
 // ----------------------------------------------------
 // component hook
 
