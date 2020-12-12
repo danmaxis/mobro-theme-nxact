@@ -9,7 +9,7 @@ module.exports = {
     },
 
     output: {
-        path: path.resolve(__dirname, "../dist"),
+        path: path.resolve(__dirname, "dist"),
         filename: "[name].js"
     },
 
@@ -19,12 +19,18 @@ module.exports = {
             path.resolve(__dirname, "node_modules")
         ],
 
-        extensions: ["*", ".js", ".jsx"]
+        extensions: ["*", ".js", ".jsx"],
+
+        alias: {
+            theme: path.resolve(__dirname, "src/"),
+            "core-js/es6": "core-js/es"
+        }
     },
 
     externals: {
-        react: "React",
-        mobro: "mobro"
+        "react": "React",
+        "react-dom": "ReactDOM",
+        "mobro": "mobro"
     },
 
     module: {
