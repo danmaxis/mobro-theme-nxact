@@ -1,4 +1,4 @@
-#MoBro Theme SDK Skeleton
+# MoBro Theme SDK Skeleton
 This is a basic skeleton for developing themes for MoBro using the new [MoBro Theme SDK](https://developers.mod-bros.com).
 
 ### Usage
