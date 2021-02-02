@@ -1,5 +1,6 @@
-# MoBro Theme SDK Skeleton
-This is a basic skeleton for developing themes for MoBro using the new [MoBro Theme SDK](https://developers.mod-bros.com).
+# MoBro Theme NXACT (Using Mobro SDK)
+Futuristic clear theme based on accent color contrast. Inspired on abandoned pretty software.
+Using basic skeleton for developing themes for MoBro using the new [MoBro Theme SDK](https://developers.mod-bros.com).
 
 ### Usage
 Just checkout this repository as described [here](https://developers.mod-bros.com/mobro-theme-sdk/quick-start/) in the
